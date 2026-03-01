@@ -1,0 +1,16 @@
+{
+  "name": "medusa",
+  "packageManager": "yarn@4.9.2",
+  "dependencies": {
+    "@medusajs/framework": "^2.13.3",
+    "@medusajs/utils": "^2.13.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.2",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "new": "medusa new root",
+    "dev": "medusa dev"
+  }
+}
